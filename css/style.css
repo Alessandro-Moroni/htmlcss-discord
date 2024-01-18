@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  background-color: rgb(49, 97, 224);
+  border: 1px solid black;
+  color: white;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* header */
+
+.display-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo{
+  display: flex;
+  padding: 5px 10px;
+}
+
+
+ul li{
+  list-style: none;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: gray;
+}
+
+.bottone{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+div button{
+  padding: 10px;
+  border-radius: 18px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  color: black;
+}
+
+div button:hover{
+  background-color: gray;
+  border: 1px solid gray;
+  color: white;
+}
+
+/* jumbotron */
+
+
+.bottone-browser{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.botton-browser:hover{
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+div h1{
+  margin: 50px 0 30px 0;
+  font-size: 50px;
+}
+
+div p{
+  padding: 0 300px;
+}
+
+div div button{
+  margin: 30px 0;
+}
+
