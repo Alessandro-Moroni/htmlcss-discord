@@ -45,7 +45,7 @@ a{
   text-decoration: none;
 }
 
-nav ul li a:hover{
+a:hover{
   background-color: gray;
 }
 
@@ -97,6 +97,7 @@ div div button{
 .paragrafo-jumbotron{
   padding: 0 300px;
 }
+
 /* main */
 
 .container-dispari{
@@ -148,4 +149,40 @@ h3{
   background-color: rgb(142, 161, 225);
   border: 1px solid rgb(142, 161, 225);
   color: white;
+}
+
+/* footer */
+
+footer{
+  margin: 0 auto;
+  background-color: rgb(35, 39, 42);
+  border: 1px solid black;
+  color: white;
+  max-width: 1200px;
+
+}
+
+.parte-footer{
+  padding: 40px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista-footer{
+  width: 20%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(53, 62, 84);
+}
+
+.titoletti-viola{
+  color: rgb(113, 136, 217);
+}
+
+.fine-footer{
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
