@@ -133,3 +133,19 @@ h2{
   display: flex;
   justify-content: space-between;
 }
+
+h3{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.quarta-section{
+  padding: 50px 200px;
+}
+
+.bottoni-lilla{
+  margin: 20px;
+  background-color: rgb(142, 161, 225);
+  border: 1px solid rgb(142, 161, 225);
+  color: white;
+}
