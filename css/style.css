@@ -103,7 +103,7 @@ div h1{
 
 /* main dal primo al terzo paragrafo*/
 .cornice{
-  background-color: red;
+  /* background-color: red; */
 }
 
 .paragrafo{
@@ -226,3 +226,6 @@ footer{
   
 }
 
+.bandiera-italiana{
+  font-size: 20px;
+}
