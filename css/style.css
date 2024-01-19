@@ -180,9 +180,22 @@ footer{
 .sezione-footer{
   margin: 0 auto;
   padding-top: 50px;
-  height: 600px;
+  height: 700px;
   width: 98%;
   max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista-sinistra{
+  width: 25%;
+  
+}
+
+.lista-destra{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .parte-top-footer{
@@ -202,14 +215,14 @@ footer{
   color: rgb(113, 136, 217);
 }
 
+
+.prima-colonna{
+  font-size: 1.5em;
+}
+
 .fine-footer{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-
-.parte-footer .lista-footer .prima-colonna{
-  font-size: 1.5em;
-}
-
 
