@@ -180,9 +180,10 @@ footer{
 .sezione-footer{
   margin: 0 auto;
   padding-top: 50px;
-  height: 700px;
+  height: 600px;
   width: 98%;
   max-width: 1400px;
+  border-bottom: 1px solid rgb(53, 62, 84);
   display: flex;
   justify-content: space-around;
 }
@@ -198,17 +199,10 @@ footer{
   justify-content: space-around;
 }
 
-.parte-top-footer{
- display: flex;
- justify-content: space-around;
-}
 
 .lista-footer{
-  width: 20%;
-  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid rgb(53, 62, 84);
 }
 
 .titoletti-viola{
@@ -221,8 +215,14 @@ footer{
 }
 
 .fine-footer{
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 98%;
+  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  align-items: center;
+  
 }
 
