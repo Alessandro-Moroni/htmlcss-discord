@@ -11,8 +11,6 @@ body{
 
 .container{
   margin: 0 auto;
-  /* background-color: rgb(49, 97, 224); */
-  border: 1px solid black;
   color: black;
   width: 98%;
   max-width: 1400px;
@@ -24,7 +22,7 @@ body{
 .sfondo-header{
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  height: 900px;
+  padding: 50px 0 150px 0;
 
 }
 
@@ -37,7 +35,6 @@ body{
 }
 .parte-superiore{
   color: white;
-  height: 900px;
 }
 
 ul li{
@@ -102,12 +99,12 @@ div h1{
 }
 
 /* main dal primo al terzo paragrafo*/
-.cornice{
-  /* background-color: red; */
+.sfondo-grigio{
+  background-color: rgb(246, 246, 246);
 }
 
 .paragrafo{
-  height: 900px;
+  padding: 150px 0;
   display: flex;
   justify-content: space-between;
   
@@ -145,9 +142,8 @@ h2{
 /* main ultimo paragrafo */
 
 .paragrafo-bot{
-  height: 900px;
+  padding: 150px 0;
   text-align: center;
-  padding: 40px 80px;
   
 }
 
@@ -156,17 +152,23 @@ h3{
   padding-bottom: 20px;
 }
 
+.immagine-centrale{
+  padding: 20px 0 40px 0;
+}
 
+
+.stelline span{
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 40px 30px 0 30px;
+}
 
 .bottoni-lilla{
   margin: 20px;
   background-color: rgb(142, 161, 225);
   border: 1px solid rgb(142, 161, 225);
   color: white;
-}
-
-.stelline{
-  background-image: url(../img/stars.svg);
 }
 
 /* footer */
@@ -179,8 +181,7 @@ footer{
 
 .sezione-footer{
   margin: 0 auto;
-  padding-top: 50px;
-  height: 600px;
+  padding: 100px 0;
   width: 98%;
   max-width: 1400px;
   border-bottom: 1px solid rgb(53, 62, 84);
@@ -227,5 +228,5 @@ footer{
 }
 
 .bandiera-italiana{
-  font-size: 20px;
+  width: 20px;
 }
