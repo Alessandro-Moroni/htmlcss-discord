@@ -6,31 +6,39 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
 }
 
 .container{
   margin: 0 auto;
-  background-color: rgb(49, 97, 224);
+  /* background-color: rgb(49, 97, 224); */
   border: 1px solid black;
-  color: white;
-  max-width: 1200px;
-  text-align: center;
+  color: black;
+  width: 98%;
+  max-width: 1400px;
+
 }
 
 /* header */
+
+.sfondo-header{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  height: 900px;
+
+}
+
 
 .display-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 20%;
 }
-
-
-.logo{
-  display: flex;
-  padding: 5px 10px;
+.parte-superiore{
+  color: white;
+  height: 900px;
 }
-
 
 ul li{
   list-style: none;
@@ -49,22 +57,17 @@ a:hover{
   background-color: gray;
 }
 
-.bottone{
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-}
-
-div button{
-  padding: 10px;
-  border-radius: 18px;
+button{
+  font-size: 0.8em;
+  padding: 10px 20px;
+  border-radius: 25px;
   background-color: white;
   border: 1px solid white;
   cursor: pointer;
   color: black;
 }
 
-div button:hover{
+button:hover{
   background-color: gray;
   border: 1px solid gray;
   color: white;
@@ -72,6 +75,11 @@ div button:hover{
 
 /* jumbotron */
 
+.jumbotron{
+  height: 80%;
+  text-align: center;
+  padding-top: 150px;
+}
 
 .bottone-browser{
   background-color: black;
@@ -86,63 +94,69 @@ div button:hover{
 }
 
 div h1{
-  margin: 50px 0 30px 0;
   font-size: 50px;
 }
 
-div div button{
-  margin: 30px 0 50px 0;
-}
-
 .paragrafo-jumbotron{
-  padding: 0 300px;
+  padding: 40px 400px 30px 400px;
 }
 
-/* main */
+/* main dal primo al terzo paragrafo*/
+.cornice{
+  background-color: red;
+}
 
-.container-dispari{
-  padding: 50px;
+.paragrafo{
+  height: 900px;
   display: flex;
   justify-content: space-between;
   
 }
 
-.img{
+.img-main{
+  height: 100%;
   width: 60%;
+  display: flex;
+  align-items: center; 
 }
 
-.testo{
+.descrizione-paragrafi{
+  height: 100%;
   width: 40%;
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
 
   
 }
 
 h2{
-  text-align: start;
-  padding-bottom: 10px;
-}
-
-.paragrafi{
-  text-align: start;
-}
-
-.container-pari{
-  padding: 50px;
+  height: 50%;
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 80px 40px 0;
+}
+
+.testo{
+  height: 50%;
+  padding-right: 80px;
+}
+
+/* main ultimo paragrafo */
+
+.paragrafo-bot{
+  height: 900px;
+  text-align: center;
+  padding: 40px 80px;
+  
 }
 
 h3{
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 20px;
 }
 
-.quarta-section{
-  padding: 50px 200px;
-}
+
 
 .bottoni-lilla{
   margin: 20px;
@@ -151,21 +165,29 @@ h3{
   color: white;
 }
 
+.stelline{
+  background-image: url(../img/stars.svg);
+}
+
 /* footer */
 
 footer{
-  margin: 0 auto;
   background-color: rgb(35, 39, 42);
-  border: 1px solid black;
   color: white;
-  max-width: 1200px;
 
 }
 
-.parte-footer{
-  padding: 40px 200px;
-  display: flex;
-  justify-content: space-between;
+.sezione-footer{
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 600px;
+  width: 98%;
+  max-width: 1400px;
+}
+
+.parte-top-footer{
+ display: flex;
+ justify-content: space-around;
 }
 
 .lista-footer{
@@ -181,8 +203,13 @@ footer{
 }
 
 .fine-footer{
-  padding: 0 200px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
+
+.parte-footer .lista-footer .prima-colonna{
+  font-size: 1.5em;
+}
+
+
